@@ -1,0 +1,88 @@
+{
+  "perfil": [
+    {
+      "name": "Wun Wun",
+      "precio": "139",
+      "img": "https://i5.walmartimages.com.mx/mg/gm/3pp/asr/e2e256f9-6916-47cc-901f-ae4718c68355.d49d227c20c715ee8708d555ffe9611c.jpeg?odnHeight=612&odnWidth=612&odnBg=FFFFFF",
+      "categoria": "Diversos",
+      "id": "31c03dae-f468-4daf-855b-48c4e1eaed35"
+    },
+    {
+      "name": "Luke Skywalker",
+      "precio": "580",
+      "img": "https://i5.walmartimages.com.mx/mg/gm/3pp/asr/546e9725-1bf2-45b4-b5c2-266d3f4fa68e.a970a71f82d97ed5e029a18fe5bf7f5a.jpeg?odnHeight=612&odnWidth=612&odnBg=FFFFFF",
+      "categoria": "StarWars",
+      "id": "dccf87e0-2b1d-42db-a548-86097599e971"
+    },
+    {
+      "name": "Stormtrooper",
+      "precio": "380",
+      "img": "https://www.distritomax.com/cdn/shop/products/32da872c220a4377a7bc2ed8fe6e75bdxl_1200x1200.jpg?v=1623866902",
+      "categoria": "StarWars",
+      "id": "28f1693b-6128-4c2c-96ac-40c7f20619a8"
+    },
+    {
+      "name": "Baby Yoda",
+      "precio": "380",
+      "img": "https://i5.walmartimages.com.mx/mg/gm/1p/images/product-images/img_large/00088969848740-1l.jpg?odnHeight=612&odnWidth=612&odnBg=FFFFFF",
+      "categoria": "StarWars",
+      "id": "f5d394da-0265-4094-b794-032d31b30b64"
+    },
+    {
+      "name": "Viserys Targaryen",
+      "precio": "780",
+      "img": "https://resources.claroshop.com/medios-plazavip/mkt/637f96ffca002_funko-pop-viserys-targaryen-02-house-of-the-dragon-original-cracken-shop-2-jpg.jpg?scale=700&qlty=80",
+      "categoria": "Diversos",
+      "id": "507450b0-0030-4ed3-b2c7-be88cb80386e"
+    },
+    {
+      "name": "Obi Wan Kenobi",
+      "precio": "260",
+      "img": "https://i5.walmartimages.com.mx/mg/gm/1p/images/product-images/img_large/00088969864558l.jpg?odnHeight=2000&odnWidth=2000&odnBg=FFFFFF",
+      "categoria": "StarWars",
+      "id": "894c177f-6927-4def-ac6b-e25fca31b20c"
+    },
+    {
+      "name": "Remus Lupin",
+      "precio": "780",
+      "img": "https://i5.walmartimages.com.mx/mg/gm/1p/images/product-images/img_large/00088969865648l.jpg?odnHeight=612&odnWidth=612&odnBg=FFFFFF",
+      "categoria": "Diversos",
+      "id": "5c4c8412-3ddb-45e9-9f6f-2ca30141a878"
+    },
+    {
+      "name": "Eight Gates Gai",
+      "precio": "320",
+      "img": "https://i5.walmartimages.com.mx/mg/gm/1p/images/product-images/img_large/00088969850675l.jpg?odnHeight=2000&odnWidth=2000&odnBg=FFFFFF",
+      "categoria": "Diversos",
+      "id": "a2212c69-7dec-43c8-a4ab-aec916b9ada9"
+    },
+    {
+      "name": "PlayStation 5",
+      "precio": "9,750",
+      "img": "https://i5.walmartimages.com.mx/mg/gm/1p/images/product-images/img_large/00071171954889l.jpg?odnHeight=612&odnWidth=612&odnBg=FFFFFF",
+      "categoria": "Consolas",
+      "id": "700101a6-528b-401f-a9e5-28cb78ee3be7"
+    },
+    {
+      "name": "Asus ROG ALLY",
+      "precio": "18,339",
+      "img": "https://i5.walmartimages.com.mx/mg/gm/3pp/asr/aba80e83-0403-4324-bd61-57e3865f217b.b7a142ce4cb5f22ca94439aded513ea7.jpeg?odnHeight=612&odnWidth=612&odnBg=FFFFFF",
+      "categoria": "Consolas",
+      "id": "9a0e0c87-b532-4f70-9d6e-6a9e9d3a8bd3"
+    },
+    {
+      "name": "Nintendo Switch",
+      "precio": "4,850",
+      "img": "https://i5.walmartimages.com.mx/mg/gm/1p/images/product-images/img_large/00004549688338-1l.jpg?odnHeight=2000&odnWidth=2000&odnBg=FFFFFF",
+      "categoria": "Consolas",
+      "id": "e1e53879-a172-4dc5-a002-196a4fd92f96"
+    },
+    {
+      "name": "Xbox Series S ",
+      "precio": "4,898",
+      "img": "https://i5.walmartimages.com.mx/mg/gm/1p/images/product-images/img_large/00088984265135l.jpg?odnHeight=2000&odnWidth=2000&odnBg=FFFFFF",
+      "categoria": "Consolas",
+      "id": "c0e36af2-6fd5-4873-95f9-5b7995e26bb7"
+    }
+  ]
+}

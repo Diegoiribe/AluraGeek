@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1.0"
+		/>
+		<title>Document</title>
+		<link rel="stylesheet" href="../assets/css/style.css" />
+	</head>
+	<body>
+		<div class="container__principal">
+			<div class="container__heater--registro">
+				<div class="nav">
+					<div class="nav--elemento">
+						<div class="nav--logo">
+							<div class="nav__logo--img" data-logoimg></div>
+							<div class="nav__logo--text" data-logotext></div>
+						</div>
+						<input
+							type="search"
+							class="nav--search"
+							placeholder="¿Que deseas buscar?"
+						/>
+					</div>
+					<a
+						href="./listaproductos.html"
+						class="nav--btnlogin"
+						data-btnlogin
+						><p>Menu Administrador</p></a
+					>
+				</div>
+			</div>
+			<div class="container__registro">
+				<form class="registro" data-form>
+					<h1>Agregar nuevo producto</h1>
+					<input type="url" placeholder="URL de imagen" data-img />
+					<select name="categoria" id="categoria" data-categoria>
+						<option value="StarWars">StarWars</option>
+						<option value="Consolas">Consolas</option>
+						<option value="Diversos">Diversos</option>
+					</select>
+					<input
+						type="text"
+						placeholder="Nombre del producto"
+						data-nombre
+					/>
+					<input
+						type="text"
+						placeholder="Precio del producto"
+						data-precio
+					/>
+					<input
+						type="text"
+						placeholder="Descripcion del producto"
+						data-descripcion
+					/>
+					<button type="submit"><p>Agregar producto</p></button>
+				</form>
+			</div>
+			<div class="footer" data-footer>
+				<div class="footer-principal">
+					<div class="footer--img"></div>
+					<div class="enlaces">
+						<a href="" class="link--footer"><p>Quienes somos</p></a>
+						<a href="" class="link--footer"
+							><p>Politica de privacidad</p></a
+						>
+						<a href="" class="link--footer"><p>Programa de fidelidad</p></a>
+						<a href="" class="link--footer"><p>Nuestras Tiendas</p></a>
+						<a href="" class="link--footer"
+							><p>Quiero ser franquiciado</p></a
+						>
+						<a href="" class="link--footer"><p>Anuncie aqui</p></a>
+					</div>
+					<div class="footer--contacto">
+						<p class="footer--text">Hazlo con nosotros</p>
+						<input class="footer--nombre" type="text" />
+						<input class="footer--mensaje" type="text" />
+						<div class="btnfooter">
+							<p data-btnfooterp>Enviar</p>
+						</div>
+					</div>
+				</div>
+				<div class="footer--second">
+					<p data-footerp>Desarrollado por Diego Iribe Carrazco 2023</p>
+				</div>
+			</div>
+		</div>
+
+		<script
+			src="https://cdnjs.cloudflare.com/ajax/libs/uuid/8.3.2/uuid.min.js"
+			integrity="sha512-UNM1njAgOFUa74Z0bADwAq8gbTcqZC8Ej4xPSzpnh0l6KMevwvkBvbldF9uR++qKeJ+MOZHRjV1HZjoRvjDfNQ=="
+			crossorigin="anonymous"
+			referrerpolicy="no-referrer"
+		></script>
+		<script
+			type="module"
+			src="../controllers/registro.controller.js"
+		></script>
+	</body>
+</html>
