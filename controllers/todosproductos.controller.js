@@ -62,9 +62,21 @@ searchInput.addEventListener("input", (e) => {
 			.listaProductos()
 			.then((data) => {
 				data.forEach(({ name, precio, img, id, categoria }) => {
-					const registro = crearRegistro(name, precio, img, id, categoria);
-					if (name.toLowerCase().includes(search)) {
-						table.appendChild(registro);
+					const existingElement = document.querySelector(
+						`[data-card][id="${id}"]`
+					);
+
+					if (!existingElement) {
+						const registro = crearRegistro(
+							name,
+							precio,
+							img,
+							id,
+							categoria
+						);
+						if (name.toLowerCase().includes(search)) {
+							table.appendChild(registro);
+						}
 					}
 				});
 			})

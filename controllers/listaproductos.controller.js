@@ -63,8 +63,14 @@ clientServices
 			);
 
 			if (!existingElement) {
-				const registro = crearRegistro(name, precio, img, id, categoria);
-				table.appendChild(registro);
+				const existingElement = document.querySelector(
+					`[data-card][id="${id}"]`
+				);
+
+				if (!existingElement) {
+					const registro = crearRegistro(name, precio, img, id, categoria);
+					table.appendChild(registro);
+				}
 			}
 		});
 	})
